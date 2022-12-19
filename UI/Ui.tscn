@@ -1,0 +1,74 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://UI/Ui.cs" type="Script" id=1]
+[ext_resource path="res://UI/SelectedPolygon/SelectedPolygonUi.tscn" type="PackedScene" id=2]
+[ext_resource path="res://UI/TriUnderMouse/TriUnderMouse.tscn" type="PackedScene" id=3]
+[ext_resource path="res://UI/GeologyUi/ControlPanelUi.tscn" type="PackedScene" id=4]
+[ext_resource path="res://UI/ArmyUi/ArmyUi.tscn" type="PackedScene" id=5]
+
+[node name="Ui" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -200.0
+margin_bottom = 658.0
+rect_min_size = Vector2( 200, 400 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RandomSeed" type="Button" parent="VBoxContainer"]
+margin_right = 200.0
+margin_bottom = 20.0
+text = "Randomize Seed"
+
+[node name="Redraw" type="Button" parent="VBoxContainer"]
+margin_top = 24.0
+margin_right = 200.0
+margin_bottom = 44.0
+text = "Redraw"
+
+[node name="Test" type="Button" parent="VBoxContainer"]
+margin_top = 48.0
+margin_right = 200.0
+margin_bottom = 68.0
+text = "Test"
+
+[node name="GeologyUi" parent="VBoxContainer" instance=ExtResource( 4 )]
+margin_top = 72.0
+margin_bottom = 372.0
+
+[node name="TriUnderMouse" parent="VBoxContainer" instance=ExtResource( 3 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 376.0
+margin_right = 200.0
+margin_bottom = 526.0
+
+[node name="SelectedPolygonUi" parent="VBoxContainer" instance=ExtResource( 2 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 530.0
+margin_right = 200.0
+margin_bottom = 680.0
+
+[node name="ArmyUi" parent="VBoxContainer" instance=ExtResource( 5 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 684.0
+margin_right = 200.0
+margin_bottom = 884.0

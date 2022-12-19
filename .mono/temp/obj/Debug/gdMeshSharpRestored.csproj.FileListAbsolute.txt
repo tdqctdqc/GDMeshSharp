@@ -1,0 +1,12 @@
+C:\Users\Tynan Dion\Desktop\games\gdMeshSharpRestored\.mono\temp\bin\Debug\gdMeshSharpRestored.dll
+C:\Users\Tynan Dion\Desktop\games\gdMeshSharpRestored\.mono\temp\bin\Debug\gdMeshSharpRestored.pdb
+C:\Users\Tynan Dion\Desktop\games\gdMeshSharpRestored\.mono\temp\bin\Debug\DelaunatorSharpNetStd.dll
+C:\Users\Tynan Dion\Desktop\games\gdMeshSharpRestored\.mono\temp\bin\Debug\PriorityQueue.dll
+C:\Users\Tynan Dion\Desktop\games\gdMeshSharpRestored\.mono\temp\obj\Debug\gdMeshSharpRestored.csproj.AssemblyReference.cache
+C:\Users\Tynan Dion\Desktop\games\gdMeshSharpRestored\.mono\temp\obj\Debug\gdMeshSharpRestored.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tynan Dion\Desktop\games\gdMeshSharpRestored\.mono\temp\obj\Debug\gdMeshSharpRestored.AssemblyInfoInputs.cache
+C:\Users\Tynan Dion\Desktop\games\gdMeshSharpRestored\.mono\temp\obj\Debug\gdMeshSharpRestored.AssemblyInfo.cs
+C:\Users\Tynan Dion\Desktop\games\gdMeshSharpRestored\.mono\temp\obj\Debug\gdMeshSharpRestored.csproj.CoreCompileInputs.cache
+C:\Users\Tynan Dion\Desktop\games\gdMeshSharpRestored\.mono\temp\obj\Debug\gdMeshSharpRestored.csproj.CopyComplete
+C:\Users\Tynan Dion\Desktop\games\gdMeshSharpRestored\.mono\temp\obj\Debug\gdMeshSharpRestored.dll
+C:\Users\Tynan Dion\Desktop\games\gdMeshSharpRestored\.mono\temp\obj\Debug\gdMeshSharpRestored.pdb

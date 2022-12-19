@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XozwYbHTg/EG/pqJGcL2sNzYgR3Jf8i2pcOTx5SgjwK2jxh9IfJpvxYk3DrieAhnOrZ1epzzTpzzHDG29X3Gfg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tynan Dion\\Desktop\\games\\gdMeshSharpRestored\\gdMeshSharpRestored.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tynan Dion\\.nuget\\packages\\delaunatornetstd\\1.0.4\\delaunatornetstd.1.0.4.nupkg.sha512",
+    "C:\\Users\\Tynan Dion\\.nuget\\packages\\optimizedpriorityqueue\\5.1.0\\optimizedpriorityqueue.5.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

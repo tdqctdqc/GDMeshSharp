@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Client/ArmyGraphics/FieldUnitGraphic/FieldUnitGraphic.cs" type="Script" id=1]
+
+[sub_resource type="QuadMesh" id=1]
+size = Vector2( 5, 5 )
+
+[sub_resource type="QuadMesh" id=2]
+size = Vector2( 3, 3 )
+
+[node name="FieldUnitGraphic" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Center" type="MeshInstance2D" parent="."]
+mesh = SubResource( 1 )
+
+[node name="Color" type="MeshInstance2D" parent="."]
+mesh = SubResource( 2 )
+
+[node name="Label" type="Label" parent="Color"]
+modulate = Color( 0, 0, 0, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -1.0
+margin_top = -1.0
+margin_right = 9.0
+margin_bottom = 13.0
+rect_scale = Vector2( 0.2, 0.2 )
+text = "D"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Left" type="MeshInstance2D" parent="."]
+visible = false
+position = Vector2( -16, 0 )
+mesh = SubResource( 1 )
+
+[node name="Right" type="MeshInstance2D" parent="."]
+visible = false
+position = Vector2( 16, 0 )
+mesh = SubResource( 1 )
+
+[node name="Line2D" type="Line2D" parent="."]
+visible = false

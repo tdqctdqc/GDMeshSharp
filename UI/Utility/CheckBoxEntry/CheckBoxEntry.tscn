@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://UI/Utility/CheckBoxEntry/CheckBoxEntry.cs" type="Script" id=1]
+
+[node name="CheckBoxEntry" type="HBoxContainer"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -14.0
+margin_top = -12.0
+margin_right = 14.0
+margin_bottom = 12.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_top = 2.0
+margin_bottom = 22.0
+rect_min_size = Vector2( 0, 20 )
+
+[node name="CheckBox" type="CheckBox" parent="."]
+margin_left = 4.0
+margin_right = 28.0
+margin_bottom = 24.0
+rect_min_size = Vector2( 0, 20 )

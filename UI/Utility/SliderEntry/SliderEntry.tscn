@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://UI/Utility/SliderEntry/SliderEntry.cs" type="Script" id=1]
+
+[node name="SliderEntry" type="HBoxContainer"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+rect_min_size = Vector2( 200, 25 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_top = 2.0
+margin_right = 50.0
+margin_bottom = 22.0
+rect_min_size = Vector2( 50, 20 )
+
+[node name="Slider" type="HSlider" parent="."]
+margin_left = 54.0
+margin_right = 104.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 50, 20 )
